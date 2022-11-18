@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668772810356' stop='1668772817082'>
+    <name>Test user is able to Apply for Leave</name>
+    <title>Test user is able to Apply for Leave</title>
+    <test-cases>
+        <test-case start='1668772810394' status='broken' stop='1668772816957'>
+            <name>Leave page Test</name>
+            <title>Leave page Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://opensource-demo.orangehrmlive.com/
+                
+                The response we received from your web server was:
+                
+                  > 500: Internal Server Error
+                
+                This was considered a failure because the status code was not `2xx`.
+                
+                This http request was redirected '1' time to:
+                
+                  - 302: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://opensource-demo.orangehrmlive.com/
+                
+                The response we received from your web server was:
+                
+                  > 500: Internal Server Error
+                
+                This was considered a failure because the status code was not `2xx`.
+                
+                This http request was redirected '1' time to:
+                
+                  - 302: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+                
+                If you do not want status codes to cause failures pass the option: `failOnStatusCode: false`
+                    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:163591:84
+                    at visitFailedByErr (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:162912:12)
+                    at https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:163571:13
+                    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:13022:23)
+                    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:10957:31)
+                    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11014:18)
+                    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11059:10)
+                    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11135:18)
+                    at _drainQueueStep (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:7729:12)
+                    at _drainQueue (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:7722:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:7738:5)
+                    at Async.drainQueues (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:7608:14)
+                From Your Spec Code:
+                    at LoginPage.navigate (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\support\index.js:386:8)
+                    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\support\index.js:418:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

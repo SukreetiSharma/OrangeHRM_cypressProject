@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668776597351' stop='1668776630880'>
+    <name>Test user is able to Apply for Leave</name>
+    <title>Test user is able to Apply for Leave</title>
+    <test-cases>
+        <test-case start='1668776597385' status='failed' stop='1668776630715'>
+            <name>Leave page Test</name>
+            <title>Leave page Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `//a[contains(text(),'Assign Leave')]`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `//a[contains(text(),'Assign Leave')]`, but never found it.
+                    at Leave.AssignLeave (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\integration\LeaveTest.spec.js:161:8)
+                    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\integration\LeaveTest.spec.js:199:11)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

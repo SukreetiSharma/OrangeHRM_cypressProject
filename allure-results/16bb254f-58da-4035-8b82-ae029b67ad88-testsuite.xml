@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668772824719' stop='1668772867131'>
+    <name>Test user is able to Add Employee</name>
+    <title>Test user is able to Add Employee</title>
+    <test-cases>
+        <test-case start='1668772824767' status='passed' stop='1668772867129'>
+            <name>PIM Page Test</name>
+            <title>PIM Page Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

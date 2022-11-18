@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1668776642003' stop='1668776661400'>
+    <name>Test user is able to Search leave</name>
+    <title>Test user is able to Search leave</title>
+    <test-cases>
+        <test-case start='1668776642033' status='passed' stop='1668776661399'>
+            <name>My leave Test</name>
+            <title>My leave Test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
